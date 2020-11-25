@@ -1,136 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design for Bootstrap</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Sistema Delivery</title>
+	<!-- MDB icon -->
+	<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<!-- Google Fonts Roboto -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
+	<!-- Your custom styles (optional) -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+	<div class="container">
+		</br>
+		<div class="product">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-8">
+						<div class="card" style="flex-direction: row; !important">
+							<div class="col-5 col-sm-3 col-md-3">
+								<img class="" src="img/burguer.png" alt="Card image cap" style="max-width: 106px;
+									max-height: 106px;
+									border-radius: 15px;
+									position: relative;
+    							top: 15%;						
+									">
+								<!--106*106px-->
+							</div>
 
-  <!-- Start your project here-->  
-  <!-- Card Wider -->
-<div class="card card-cascade wider">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-12">
+										<h4 class="card-title" style="margin-top: -15px;"><a>Hambuguer</a></h4>
+										<p class="card-text" style="margin-top: 
+										-5px; font-size: 12px;
+										 line-height: 1.25;
+										 ">
+											Some quick example text to build on the card title and make
+											up the bulk of the card's content.
+										</p>
+									</div>
+								</div>
 
-<!-- Card image -->
-<div class="view view-cascade overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo6.jpg" alt="Card image cap">
-  <a href="#!">
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-12 col-sm-5 col-md-5 col-lg-5 -->
+										<span class="card-text" style="color: black">R$19,90</span>
+										<span class="badge badge-pill badge-warning">-30%</span>
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-sm-3 col-md-3 col-lg-3 -->
+										<button type="button" class="btn btn-primary ml-0 rounded-pill btn-sm">Adicionar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!-- Card content -->
-<div class="card-body card-body-cascade text-center">
+		</br>
+		<div class="product">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-8">
+						<div class="card" style="flex-direction: row; !important">
+							<div class="col-5 col-sm-3 col-md-3">
+								<img class="" src="img/pizza.png" alt="Card image cap" style="max-width: 106px;
+									max-height: 106px;
+									border-radius: 15px;
+									position: relative;
+    							top: 15%;						
+									">
+								<!--106*106px-->
+							</div>
 
-  <!-- Title -->
-  <h4 class="card-title"><strong>Alison Belmont</strong></h4>
-  <!-- Subtitle -->
-  <h5 class="blue-text pb-2"><strong>Graffiti Artist</strong></h5>
-  <!-- Text -->
-  <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-    laudantium, totam rem aperiam. </p>
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-12">
+										<h4 class="card-title" style="margin-top: -15px;"><a>Pizza</a></h4>
+										<p class="card-text" style="margin-top: 
+										-5px; font-size: 12px;
+										 line-height: 1.25;
+										 ">
+											Some quick example text to build on the card title and make
+											up the bulk of the card's content.
+										</p>
+									</div>
+								</div>
 
-  <!-- Linkedin -->
-  <a class="px-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a>
-  <!-- Twitter -->
-  <a class="px-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a>
-  <!-- Dribbble -->
-  <a class="px-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-12 col-sm-5 col-md-5 col-lg-5 -->
+										<span class="card-text" style="color: black">R$29,90</span>
+										<!-- <span class="badge badge-pill badge-warning">-30%</span> -->
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-sm-3 col-md-3 col-lg-3 -->
+										<button type="button" class="btn btn-primary ml-0 rounded-pill btn-sm">Adicionar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-</div>
+		</br>
+		<div class="product">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-8">
+						<div class="card" style="flex-direction: row; !important">
+							<div class="col-5 col-sm-3 col-md-3">
+								<img class="" src="img/agua.png" alt="Card image cap" style="max-width: 106px;
+									max-height: 106px;
+									border-radius: 15px;
+									position: relative;
+    							top: 15%;						
+									">
+								<!--106*106px-->
+							</div>
 
-</div>
-<!-- Card Wider -->
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-12">
+										<h4 class="card-title" style="margin-top: -15px;"><a>Água</a></h4>
+										<p class="card-text" style="margin-top: 
+										-5px; font-size: 12px;
+										 line-height: 1.25;
+										 ">
+											Some quick example text to build on the card title and make
+											up the bulk of the card's content.
+										</p>
+									</div>
+								</div>
 
-<!-- Card Narrower -->
-<div class="card card-cascade narrower">
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-12 col-sm-5 col-md-5 col-lg-5 -->
+										<span class="card-text" style="color: black">R$5,90</span>
+										<span class="badge badge-pill badge-warning">-30%</span>
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-sm-3 col-md-3 col-lg-3 -->
+										<button type="button" class="btn btn-primary ml-0 rounded-pill btn-sm">Adicionar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-<!-- Card image -->
-<div class="view view-cascade overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-    alt="Card image cap">
-  <a>
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
+		</br>
+		<div class="product">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<div class="col-12 col-md-8">
+						<div class="card" style="flex-direction: row; !important">
+							<div class="col-5 col-sm-3 col-md-3">
+								<img class="" src="img/fritas.png" alt="Card image cap" style="max-width: 106px;
+									max-height: 106px;
+									border-radius: 15px;
+									position: relative;
+    							top: 15%;						
+									">
+								<!--106*106px-->
+							</div>
 
-<!-- Card content -->
-<div class="card-body card-body-cascade">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-12">
+										<h4 class="card-title" style="margin-top: -15px;"><a>Fritas</a></h4>
+										<p class="card-text" style="margin-top: 
+										-5px; font-size: 12px;
+										 line-height: 1.25;
+										 ">
+											Some quick example text to build on the card title and make
+											up the bulk of the card's content.
+										</p>
+									</div>
+								</div>
 
-  <!-- Label -->
-  <h5 class="pink-text pb-2 pt-1"><i class="fas fa-utensils"></i> Culinary</h5>
-  <!-- Title -->
-  <h4 class="font-weight-bold card-title">Cheat day inspirations</h4>
-  <!-- Text -->
-  <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-    laboriosam, nisi ut aliquid ex ea commodi.</p>
-  <!-- Button -->
-  <a class="btn btn-unique">Button</a>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-12 col-sm-5 col-md-5 col-lg-5 -->
+										<span class="card-text" style="color: black">R$15,90</span>
+										<span class="badge badge-pill badge-warning">-20%</span>
+									</div>
+								</div>
+								<div class="row justify-content-start">
+									<div class="col">
+										<!-- col-sm-3 col-md-3 col-lg-3 -->
+										<button type="button" class="btn btn-primary ml-0 rounded-pill btn-sm">Adicionar</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-</div>
+	</div>
+	</div>
 
-</div>
-<!-- Card Narrower -->
-
-<!-- Card Regular -->
-<div class="card card-cascade">
-
-<!-- Card image -->
-<div class="view view-cascade overlay">
-  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">
-  <a>
-    <div class="mask rgba-white-slight"></div>
-  </a>
-</div>
-
-<!-- Card content -->
-<div class="card-body card-body-cascade text-center">
-
-  <!-- Title -->
-  <h4 class="card-title"><strong>Billy Coleman</strong></h4>
-  <!-- Subtitle -->
-  <h6 class="font-weight-bold indigo-text py-2">Web developer</h6>
-  <!-- Text -->
-  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae.
-    Facere modi sunt, quod quibusdam.
-  </p>
-
-  <!-- Facebook -->
-  <a type="button" class="btn-floating btn-small btn-fb"><i class="fab fa-facebook-f"></i></a>
-  <!-- Twitter -->
-  <a type="button" class="btn-floating btn-small btn-tw"><i class="fab fa-twitter"></i></a>
-  <!-- Google + -->
-  <a type="button" class="btn-floating btn-small btn-dribbble"><i class="fab fa-dribbble"></i></a>
-
-</div>
-
-</div>
-<!-- Card Regular -->
-  <!-- End your project here-->
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+	<!-- Your custom scripts (optional) -->
+	<script type="text/javascript"></script>
 
 </body>
+
 </html>
